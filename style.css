@@ -1,0 +1,31 @@
+html {
+    background: #e8e9eb;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color: #191c1d;
+    border-top: 15px double #ef6461;
+    background: #fff;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+}
+
+p{
+    line-height: 1.5em;
+    width: 250px;
+   
+}
+
+#blog { 
+    border-top: 1px solid #e4b363;
+}
+.blog-post{ border-bottom: 1px solid #e4b363;
+  
+}
+
