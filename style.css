@@ -1,5 +1,6 @@
 html {
     background: #e8e9eb;
+  
 }
 
 body {
@@ -11,21 +12,47 @@ body {
     background: #fff;
 }
 
+
+section{
+    background: #ffffff;
+    padding: 25px;
+}
+    
 h1{
-    font-size: 3em;
+    font-size: 4em;
     margin: 0;
+}
+h2{
+    font-size: 1.4em;
+    padding: 25px;
 }
 
 p{
     line-height: 1.5em;
     width: 250px;
-   
 }
 
 #blog { 
     border-top: 1px solid #e4b363;
+
 }
-.blog-post{ border-bottom: 1px solid #e4b363;
-  
+.blog-post {
+    
+    padding: 20px;
+
 }
 
+article {
+    border-bottom: 1px solid #e4b363;
+    padding: 30px;
+    margin: 30px;
+   
+}
+
+
+article {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 30px;
+    padding: 30px;
+    margin: 30px;
+}
