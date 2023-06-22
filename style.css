@@ -2,7 +2,30 @@ html {
     background: #e8e9eb;
   
 }
+.header {
+    padding: 5px;
+    background: #e4b363;
+    position: sticky;
+    top: 0;
+   
+  }
+  .sticky  {
+    top: 0px;
+  }
+ 
+nav{
+    padding: 5px;
+    background: #e4b363;
+    position: sticky;
+    top: 0;
 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 40px;
@@ -16,24 +39,29 @@ body {
 section{
     background: #ffffff;
     padding: 25px;
+  
 }
     
 h1{
-    font-size: 4em;
+    font-size: 3.5em;
     margin: 0;
 }
 h2{
     font-size: 1.4em;
-    padding: 25px;
+    padding: 3px;
 }
 
+aside{
+    line-height: 1.5em;
+    width: 300px;
+    flex: 1;
+}
 p{
     line-height: 1.5em;
-    width: 250px;
+    width: 300px;
 }
-
 #blog { 
-    border-top: 1px solid #e4b363;
+    border-top: 1px solid #313638;
 
 }
 .blog-post {
@@ -43,16 +71,9 @@ p{
 }
 
 article {
-    border-bottom: 1px solid #e4b363;
-    padding: 30px;
-    margin: 30px;
-   
-}
-
-
-article {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #313638;
     padding-bottom: 30px;
     padding: 30px;
     margin: 30px;
+   
 }
