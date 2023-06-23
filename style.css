@@ -3,28 +3,45 @@ html {
   
 }
 .header {
-    padding: 5px;
+    padding: 10px;
     background: #e4b363;
     position: sticky;
     top: 0;
    
   }
-  .sticky  {
-    top: 0px;
-  }
- 
+
+  
 nav{
     padding: 5px;
-    background: #e4b363;
-    position: sticky;
-    top: 0;
+    
+
 
 }
 ul {
+    border: 1px solid #555;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 200px;
   }
+  
+  li a {
+    text-align: center;
+    border-bottom: 1px solid #555;
+    display: block;
+    padding: 8px 16px;
+    color: #ef6461;
+
+  }
+  li a:hover {
+    background-color: #313638;
+    color: white;
+  }
+
+  li:last-child {
+    border-bottom: none;
+  }   
+
   
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -60,7 +77,7 @@ p{
     line-height: 1.5em;
     width: 300px;
 }
-#blog { 
+.blog { 
     border-top: 1px solid #313638;
 
 }
